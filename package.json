@@ -1,0 +1,28 @@
+{
+  "name": "base-type-fn",
+  "version": "1.0.0",
+  "description": "extend general function for javascript base type",
+  "main": "dist/index.js",
+  "types": "dist/types",
+  "scripts": {
+    "test": "test",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WilsonLau0755/base-type-fn.git"
+  },
+  "keywords": [
+    "general function"
+  ],
+  "author": "Wilson Lau",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "source-map-loader": "^4.0.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
