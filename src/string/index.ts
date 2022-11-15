@@ -1,8 +1,3 @@
-interface String {
-  fixIOSDateTimeStr(): string,
-  randomStr(length: number): string
-}
-
 /**
  * 修复微信小程序端部分IOS手机型号对带T时间日期格式进行new Date时出错
  */

@@ -1,8 +1,3 @@
-declare interface Date {
-  format(fmt: string): string,
-  sectionDateTimeFormat(endDate: Date): string
-}
-
 /**
  * date format function
  */

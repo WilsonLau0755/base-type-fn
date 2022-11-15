@@ -1,7 +1,3 @@
-interface Number {
-  toDateTimeStr(): string
-}
-
 /**
  * 将毫秒数转化成时间格式
  * @return 返回字符串格式：%d天?%h时?%m分。 如：1天10时01分
