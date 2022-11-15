@@ -1,26 +1,24 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "./dist",
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
     "target": "es5",
     "declaration": true,
-    "declarationDir": "./dist/types",
+    "declarationDir": "./dist",
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
     "baseUrl": ".",
     "rootDir": ".",
     "typeRoots": [
-      "node_modules/@types",
-      // "types"
-      "global.d.ts"
+      "./node_modules/@types",
+      "./global.d.ts"
     ]
   },
-  "include": [
-    "./src/**/*"
-  ],
   "exclude": [
-    "node_modules",
-    "dist"
+    "./node_modules",
+    "./dist"
   ],
   "compileOnSave": true
 }
