@@ -6,12 +6,16 @@
   "types": "dist/types",
   "scripts": {
     "test": "test",
-    "start": "webpack"
+    "build": "webpack",
+    "build-publish": "webpack & npm publish"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/WilsonLau0755/base-type-fn.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "general function"
   ],
